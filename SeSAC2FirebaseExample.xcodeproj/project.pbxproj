@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1881D1C928F4ED57009A7E7B /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 1881D1C828F4ED57009A7E7B /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		1881D1CB28F4ED57009A7E7B /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 1881D1CA28F4ED57009A7E7B /* FirebaseCrashlytics */; };
+		1881D1CD28F4ED57009A7E7B /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 1881D1CC28F4ED57009A7E7B /* FirebaseMessaging */; };
+		1881D1F428F793E0009A7E7B /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 1881D1F328F793E0009A7E7B /* Realm */; };
+		1881D1F628F793E0009A7E7B /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1881D1F528F793E0009A7E7B /* RealmSwift */; };
+		1881D1F828F799FE009A7E7B /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881D1F728F799FE009A7E7B /* Todo.swift */; };
+		1881D1FA28F79BB4009A7E7B /* MigrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881D1F928F79BB4009A7E7B /* MigrationViewController.swift */; };
+		18D8C55E28FE4DC900778A8B /* SampleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D8C55D28FE4DC900778A8B /* SampleCollectionViewController.swift */; };
 		18DE8DBF28ED157500A74345 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE8DBE28ED157500A74345 /* AppDelegate.swift */; };
 		18DE8DC128ED157500A74345 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE8DC028ED157500A74345 /* SceneDelegate.swift */; };
 		18DE8DC328ED157500A74345 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE8DC228ED157500A74345 /* ViewController.swift */; };
 		18DE8DC628ED157500A74345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DE8DC428ED157500A74345 /* Main.storyboard */; };
 		18DE8DC828ED157700A74345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DE8DC728ED157700A74345 /* Assets.xcassets */; };
 		18DE8DCB28ED157700A74345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DE8DC928ED157700A74345 /* LaunchScreen.storyboard */; };
+		18DE8DD528ED1D6000A74345 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18DE8DD428ED1D5F00A74345 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1881D1CE28F4F23C009A7E7B /* SeSAC2FirebaseExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SeSAC2FirebaseExample.entitlements; sourceTree = "<group>"; };
+		1881D1F728F799FE009A7E7B /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		1881D1F928F79BB4009A7E7B /* MigrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationViewController.swift; sourceTree = "<group>"; };
+		18D8C55D28FE4DC900778A8B /* SampleCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCollectionViewController.swift; sourceTree = "<group>"; };
 		18DE8DBB28ED157500A74345 /* SeSAC2FirebaseExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSAC2FirebaseExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DE8DBE28ED157500A74345 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18DE8DC028ED157500A74345 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,7 @@
 		18DE8DC728ED157700A74345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18DE8DCA28ED157700A74345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18DE8DCC28ED157700A74345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DE8DD428ED1D5F00A74345 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1881D1CD28F4ED57009A7E7B /* FirebaseMessaging in Frameworks */,
+				1881D1C928F4ED57009A7E7B /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				1881D1F428F793E0009A7E7B /* Realm in Frameworks */,
+				1881D1F628F793E0009A7E7B /* RealmSwift in Frameworks */,
+				1881D1CB28F4ED57009A7E7B /* FirebaseCrashlytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,13 +75,18 @@
 		18DE8DBD28ED157500A74345 /* SeSAC2FirebaseExample */ = {
 			isa = PBXGroup;
 			children = (
+				1881D1CE28F4F23C009A7E7B /* SeSAC2FirebaseExample.entitlements */,
+				1881D1F728F799FE009A7E7B /* Todo.swift */,
 				18DE8DBE28ED157500A74345 /* AppDelegate.swift */,
 				18DE8DC028ED157500A74345 /* SceneDelegate.swift */,
 				18DE8DC228ED157500A74345 /* ViewController.swift */,
 				18DE8DC428ED157500A74345 /* Main.storyboard */,
+				1881D1F928F79BB4009A7E7B /* MigrationViewController.swift */,
+				18D8C55D28FE4DC900778A8B /* SampleCollectionViewController.swift */,
 				18DE8DC728ED157700A74345 /* Assets.xcassets */,
 				18DE8DC928ED157700A74345 /* LaunchScreen.storyboard */,
 				18DE8DCC28ED157700A74345 /* Info.plist */,
+				18DE8DD428ED1D5F00A74345 /* GoogleService-Info.plist */,
 			);
 			path = SeSAC2FirebaseExample;
 			sourceTree = "<group>";
@@ -77,12 +101,20 @@
 				18DE8DB728ED157500A74345 /* Sources */,
 				18DE8DB828ED157500A74345 /* Frameworks */,
 				18DE8DB928ED157500A74345 /* Resources */,
+				18DE8DDE28ED2E5600A74345 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SeSAC2FirebaseExample;
+			packageProductDependencies = (
+				1881D1C828F4ED57009A7E7B /* FirebaseAnalyticsWithoutAdIdSupport */,
+				1881D1CA28F4ED57009A7E7B /* FirebaseCrashlytics */,
+				1881D1CC28F4ED57009A7E7B /* FirebaseMessaging */,
+				1881D1F328F793E0009A7E7B /* Realm */,
+				1881D1F528F793E0009A7E7B /* RealmSwift */,
+			);
 			productName = SeSAC2FirebaseExample;
 			productReference = 18DE8DBB28ED157500A74345 /* SeSAC2FirebaseExample.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +143,10 @@
 				Base,
 			);
 			mainGroup = 18DE8DB228ED157500A74345;
+			packageReferences = (
+				1881D1C728F4ED57009A7E7B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				1881D1F228F793E0009A7E7B /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 18DE8DBC28ED157500A74345 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,12 +162,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				18DE8DCB28ED157700A74345 /* LaunchScreen.storyboard in Resources */,
+				18DE8DD528ED1D6000A74345 /* GoogleService-Info.plist in Resources */,
 				18DE8DC828ED157700A74345 /* Assets.xcassets in Resources */,
 				18DE8DC628ED157500A74345 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18DE8DDE28ED2E5600A74345 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18DE8DB728ED157500A74345 /* Sources */ = {
@@ -140,7 +199,10 @@
 			files = (
 				18DE8DC328ED157500A74345 /* ViewController.swift in Sources */,
 				18DE8DBF28ED157500A74345 /* AppDelegate.swift in Sources */,
+				1881D1FA28F79BB4009A7E7B /* MigrationViewController.swift in Sources */,
 				18DE8DC128ED157500A74345 /* SceneDelegate.swift in Sources */,
+				18D8C55E28FE4DC900778A8B /* SampleCollectionViewController.swift in Sources */,
+				1881D1F828F799FE009A7E7B /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,8 +347,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SeSAC2FirebaseExample/SeSAC2FirebaseExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = UT362X937Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeSAC2FirebaseExample/Info.plist;
@@ -313,6 +377,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SeSAC2FirebaseExample/SeSAC2FirebaseExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UT362X937Q;
@@ -358,6 +423,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1881D1C728F4ED57009A7E7B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		1881D1F228F793E0009A7E7B /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.30.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1881D1C828F4ED57009A7E7B /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1881D1C728F4ED57009A7E7B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		1881D1CA28F4ED57009A7E7B /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1881D1C728F4ED57009A7E7B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		1881D1CC28F4ED57009A7E7B /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1881D1C728F4ED57009A7E7B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		1881D1F328F793E0009A7E7B /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1881D1F228F793E0009A7E7B /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		1881D1F528F793E0009A7E7B /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1881D1F228F793E0009A7E7B /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 18DE8DB328ED157500A74345 /* Project object */;
 }
